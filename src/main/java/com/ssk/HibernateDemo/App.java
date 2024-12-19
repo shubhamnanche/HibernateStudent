@@ -48,6 +48,7 @@ public class App {
 		session.persist(ad);
 		tx.commit();
 		session.close();
+		factory.close();
 		System.out.println("Done...");
 	}
 }
