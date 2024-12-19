@@ -18,6 +18,8 @@
 		<mapping class="com.ssk.HibernateDemo.Address"/>
 		<mapping class="com.ssk.HibernateDemo.map.Question"/>
 		<mapping class="com.ssk.HibernateDemo.map.Answer"/>
+		<mapping class="com.ssk.HibernateDemo.map_many.Employee"/>
+		<mapping class="com.ssk.HibernateDemo.map_many.Project"/>
 		
 	</session-factory>
 </hibernate-configuration>	
