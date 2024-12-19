@@ -3,6 +3,7 @@ package com.ssk.HibernateDemo.map;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,4 +17,6 @@ public class Answer {
 	@Column(name = "answer_id")
 	private int answerId;
 	private String answer;
+	@ManyToOne
+	private Question question;
 }
